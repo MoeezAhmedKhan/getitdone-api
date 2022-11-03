@@ -27,9 +27,8 @@ if($_POST['token'] == 'as23rlkjadsnlkcj23qkjnfsDKJcnzdfb3353ads54vd3favaeveavgbq
     
         //   print_r($menu_item_id);
        
-        $insert = "INSERT INTO `task_details`(`task_id`, `title`, `name`, `description`, `estimated_cost`,`pickup_location`,
-        `drop_location`, `menu_item_id`) 
-        VALUES ('$last_id','$title','$name','$desc','$estimate_amount','$pickup_location','$drop','$menu_item_id')";
+        $insert = "INSERT INTO `task_details`(`task_id`, `title`, `name`, `description`, `estimated_cost`,`pickup_location`,`menu_item_id`) 
+        VALUES ('$last_id','$title','$name','$desc','$estimate_amount','$pickup_location','$menu_item_id')";
         $run_insert = mysqli_query($conn,$insert);
         
     }
