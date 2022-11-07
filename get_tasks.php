@@ -1,4 +1,4 @@
- <?php
+<?php
 
 include('connection.php');
 if($_POST['token'] == 'as23rlkjadsnlkcj23qkjnfsDKJcnzdfb3353ads54vd3favaeveavgbqaerbVEWDSC')
