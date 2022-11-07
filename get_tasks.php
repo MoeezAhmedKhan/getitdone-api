@@ -34,6 +34,7 @@ if($_POST['token'] == 'as23rlkjadsnlkcj23qkjnfsDKJcnzdfb3353ads54vd3favaeveavgbq
                              "description"=>$arr2['description'],
                              "estimated_cost"=>$arr2['estimated_cost'],
                              "pickup_location"=>$arr2['pickup_location'],
+                             "number_of_visiting_places"=>$rows2,
                              "menu_item_id"=>$arr2['menu_item_id'],
                          ];
                          array_push($arrmain2,$tmp2);
@@ -87,6 +88,7 @@ if($_POST['token'] == 'as23rlkjadsnlkcj23qkjnfsDKJcnzdfb3353ads54vd3favaeveavgbq
                              "description"=>$arr2['description'],
                              "estimated_cost"=>$arr2['estimated_cost'],
                              "pickup_location"=>$arr2['pickup_location'],
+                             "number_of_visiting_places"=>$rows2,
                              "menu_item_id"=>$arr2['menu_item_id'],
                          ];
                          array_push($arrmain2,$tmp2);
